@@ -12,8 +12,8 @@ public class Main {
 	//System.out.println("Hola");
 
      ArchivosUtils archivoUtils = new ArchivosUtils();
-	 List<String> archivo1 = archivoUtils.recorrerArchivo("C:\\Users\\tmaqu\\Desktop\\CSV\\USUARIO_DIARIO_MODO_ROOT.csv");
-	 List<String> archivo2 = archivoUtils.recorrerArchivo("C:\\Users\\tmaqu\\Desktop\\CSV\\personas_bip.csv");
+	 List<String> archivo1 = archivoUtils.recorrerArchivo("C:\\Users\\tmaqu\\Documents\\GitHub\\compararCSV\\USUARIO_DIARIO_MODO_ROOT.csv");
+	 List<String> archivo2 = archivoUtils.recorrerArchivo("C:\\Users\\tmaqu\\Documents\\GitHub\\compararCSV\\personas_bip.csv");
 	 
 	 List<String> archivo1editado = new ArrayList<String>();
 	 List<String> archivo2editado = new ArrayList<String>();
